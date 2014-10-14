@@ -44,7 +44,7 @@ all: autodiff_library_test
 autodiff_library_test: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MacOS X C++ Linker'
-	g++ -L"/Users/s0965328/workspace/autodiff_library/autodiff_library/Release" -o "autodiff_library_test" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++  -o "autodiff_library_test" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
